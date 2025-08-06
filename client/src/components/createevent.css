@@ -9,6 +9,8 @@
 #create-event-form{
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     width: 200px;
     height: 500px;
 }
@@ -24,10 +26,38 @@
     outline: none;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-width: 3px;
+}
+.create-event-input-text:focus{
+    border-color: rgb(255, 0, 47);
+
 }
 .create-event-input-textarea{
-    width: 350px;
+    width: 370px;
     height: 200px;
     resize: none;
+    border-width: 3px;
+    outline: none;
 
+}
+.create-event-input-textarea:focus{
+    border-color: rgb(255, 0, 47);
+
+}
+.create-event-input-submit{
+    width : 150px;
+    /* height: 30px; */
+    margin-top: 10px;
+    height: 35px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(229, 7, 33);
+    outline: none;
+    border-style: solid;
+    border-color: rgb(229, 7, 33);
+    border-width: 2px;
+    border-radius: 4px;
+    cursor: pointer;
 }

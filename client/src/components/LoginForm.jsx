@@ -68,7 +68,7 @@ function LoginForm() {
     }
 
     try {
-      const response = await fetch("https://klansin.onrender.com/login", {
+      const response = await fetch("", {
         method: "POST",
         credentials: "include",
         headers: {
