@@ -16,7 +16,10 @@ export const createEvent = async (req, res) => {
     if (user.role !== "organiser") {
       return res.status(400).json({ message: "Unauthorized" });
     }
-
+    const existingEvent = await event.findOne({eventName});
+    if (existingEvent){
+      return res.status(400).json({message: "Event already exists"});
+    }
     const createEvent = await event.create({
       location,
       description,
