@@ -1,0 +1,98 @@
+.login-header-principal-container{
+    background-color: #212121;
+    color: white;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    max-width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding-left: 2.5%; */
+    /* padding-right: calc(2.5% + 15px); */
+}
+#login-header-logo-link{
+    width: 100%;
+  text-decoration: none;
+  color: var(--white);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+#login-header-logo{
+    width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  /* color: var(--white); */
+  color: white;
+  letter-spacing: 6px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-left: 12px;
+
+}
+.login-header-signup-buttons-container{
+    margin-right: 10px;
+    margin-left: auto;
+    width: 30%;
+    min-width: 180px;
+    padding-left: 2.5%;
+    
+    display: flex;
+    flex-direction: row;
+
+    height: 100%;
+    
+    align-items: center;
+    
+    
+}
+
+#login-header-about-button{
+
+    background-color: transparent;
+    color: white;
+    
+    width: auto;
+    height: 30px;
+    text-decoration: none;
+   
+    font-size: medium;
+    font-weight: 500;
+
+}
+#login-header-about-button:hover{
+    color: #9275ff;
+}
+#login-header-signup-button-container{
+    /* margin-right: 2.5%; */
+    /* margin-left: auto; */
+    margin-left: 50px;
+
+}
+#login-header-signup-button{
+    background-color: #9275ff;
+    color: white;
+    border-style: solid;
+    border-color: #9275ff;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+#login-header-signup-button:hover{
+    background-color: #816af6;
+
+}

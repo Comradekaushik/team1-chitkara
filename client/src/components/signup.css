@@ -1,0 +1,75 @@
+#signup-form-principal-container {
+  width: 100%;
+  background-color: #212121;
+  min-height: 100vh;
+  min-width: 300px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+#signup-page-logo {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--white);
+  letter-spacing: 6px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#signup-message {
+  color: white;
+  font-size: 26px;
+}
+#signup-tnc-message {
+  width: 300px;
+  color: var(--white);
+  margin-top: 20px;
+  font-size: 12px;
+}
+#signup-bottom-login-instead {
+  margin-top: 20px;
+  color: var(--white);
+}
+.signup-input-label{
+    position: absolute;
+    top: -10px;
+    left: 4%;
+    background-color: #1e1e1e; /* Match the background color */
+    padding: 0 5px;
+    /* color: #816af6; Label color */
+    font-size: 14px;
+    color: var(--white);
+}
+#signup-email-input {
+  min-width: 300px;
+}
+#signup-username-input {
+  min-width: 300px;
+}
+#signup-password-input {
+  min-width: 300px;
+}
+.signup-page-links{
+    text-decoration: none;
+    color: #0095f6;
+}
+#signup-submit-button{
+    background-color: #9275ff;
+    color: white;
+    border-style: solid;
+    border-color: #9275ff;
+    width: 150px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+}
+#signup-submit-button:hover{
+    background-color : #816af6;
+}

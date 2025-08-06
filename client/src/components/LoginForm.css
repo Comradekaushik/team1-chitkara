@@ -1,0 +1,87 @@
+:root {
+    
+    --white: #faf0e6;
+}
+  
+#login-form-principal-container{
+    padding-top: 10vh;
+    color: var(--white);
+    overflow: auto;
+    width: 50%;
+    height: 100vh;
+    /* padding-left: 2.5%; */
+    /* padding-right: 2.5%; */
+    
+}
+#login-form-principal-container::-webkit-scrollbar{
+    display: none;
+}
+
+#login-form-logo-container{
+    margin-top: 20px;
+}
+
+#login-heading{
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+#enter-credentials-message-container{
+    color: white;
+    margin-bottom: 8vh;
+
+}
+
+.input-container {
+    position: relative;
+    margin: 20px 0;
+}
+  
+.input-label {
+    position: absolute;
+    top: -10px;
+    left: 12.5%;
+    background-color: #1e1e1e; /* Match the background color */
+    padding: 0 5px;
+    /* color: #816af6; Label color */
+    font-size: 14px;
+}
+  
+.input-field {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #3f3f40;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+}
+.input-field:hover{
+    border-color: #816af6;
+
+}
+.input-field:focus{
+    border-width: 2px;
+    border-color: #816af6;
+}
+
+.input-field:focus  {
+    border-color: #9275ff;
+}
+
+#login-submit-button{
+    background-color: #9275ff;
+    color: white;
+    border-style: solid;
+    border-color: #9275ff;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: 500;
+}
+#login-submit-button:hover{
+    background-color : #816af6;
+}
+  

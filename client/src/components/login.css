@@ -1,0 +1,51 @@
+
+
+#login-path-principal-component{
+    width: 100vw;
+    background-color: #212121;
+    z-index: 50;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+}
+
+#login-path-principal-component::-webkit-scrollbar {
+    display: none; 
+}
+
+#login-path-principal-component {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+}
+
+
+@media (max-width: 600px) {
+    #login-form-principal-container{
+        width: 100%;
+    }
+    .slideshow-container{
+        display: none;
+    }
+    #login-header-about-button-container{
+        display: none;
+    }
+    #login-submit-button{
+        width: 150px;
+        height: 40px;
+
+    }
+}
+@media (min-width : 601px) and (max-width: 768px) {
+    
+    #login-form-principal-container{
+        width: 100%;
+    }
+    
+    #login-submit-button{
+        width: 175px;
+        height: 45px;
+
+    }
+}
